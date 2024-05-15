@@ -60,7 +60,7 @@ function createFunction(){
 
     const folder=document.createElement('div');
     folder.className='folder';
-    folder.innerHTML="<img src='images/folder-open-fill.png'></img>";
+    folder.innerHTML="<img src='folder-open-fill.png'></img>";
     upper.appendChild(folder);
    
 

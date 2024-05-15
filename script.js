@@ -4,7 +4,6 @@ const container=document.getElementById('container');
 
 let ans;
 
-
 btn.addEventListener('click',()=>{
    
     let projectName=document.createElement('div');
@@ -34,7 +33,6 @@ btn.addEventListener('click',()=>{
     
 })
 
-
 function createFunction(){
     let box=document.createElement('div');
     box.className="box";
@@ -60,7 +58,7 @@ function createFunction(){
 
     const folder=document.createElement('div');
     folder.className='folder';
-    folder.innerHTML="<img src='folder-open-fill.png'></img>";
+    folder.innerHTML="<img src='images/folder-open-fill.png'></img>";
     upper.appendChild(folder);
    
 
@@ -99,12 +97,6 @@ function createFunction(){
    
     saveData();
 }
-
-
-
-
-
-
 
 project.addEventListener('click',(e)=>{
     const q=e.target.matches('.folder img');
@@ -191,13 +183,6 @@ function addTask(z,l,box){
         
     })
 }
-
-
-
-
-
-
-
 
 project.addEventListener('click',(e)=>{
     const t=e.target.closest('.LI')

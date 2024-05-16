@@ -3,7 +3,7 @@
 
  
 # Login Page
-### First of all you need to sign up for that put your credentials in email id and password input and click on sign up page.
+### First of all you need to sign up for that put your credentials in email id and password input box and click on sign up page.
 
 ![WhatsApp Image 2024-05-15 at 15 36 32](https://github.com/Sumedh5798/hatio_project/assets/142483238/1a31fc62-22b8-419a-9a97-807e37873a14)
 
@@ -11,12 +11,12 @@
 
 
 # Home Page
-### Once you sign up use exact same credentials to sign in you can do it with clicking on sign in page but make sure you sign up first.
+### Once you sign up use exact same credentials to sign in you can do it with clicking on sign in button but make sure you sign up first.
 
 ![WhatsApp Image 2024-05-15 at 15 39 38](https://github.com/Sumedh5798/hatio_project/assets/142483238/45462d82-7388-4dd9-b399-b74278358ee2)
 
 
-### Then you will land on the home page where you can see heading "Want To Create Project " click on the "+" button then give th proper project name to it and by clicking on the submit button you will create the project you can create as much as you want.
+### Then you will land on the home page where you can see heading "Want To Create Project " click on the "+" button then give the proper project name to it and by clicking on the submit button you will create the project you can create as much as you want.
 
 ![WhatsApp Image 2024-05-15 at 15 41 16](https://github.com/Sumedh5798/hatio_project/assets/142483238/1d03ce10-7cb4-40e0-9344-417c836b21cb)
 

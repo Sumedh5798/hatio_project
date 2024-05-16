@@ -226,7 +226,7 @@ project.addEventListener('click',()=>{
         const LI1=done.querySelectorAll('.LI');
         const a=LI.length;
         const b=LI1.length;
-        listData.innerHTML=`<h5> ${b}  out  of  ${a}  tasks  are </h5>`
+        listData.innerHTML=`<h5> ${b}  out  of  ${a}  tasks  are completed</h5>`
     }
 })
 

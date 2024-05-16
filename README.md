@@ -29,7 +29,7 @@
 
 
 # To-do task 
-### But you want to add task in project click on folder icon you will land on the task page where you can add task you can see pending and completed taske in that list.
+### But you want to add task in project click on folder icon you will land on the task page where you can add task you can see pending and completed task in that list.
 
 ![WhatsApp Image 2024-05-15 at 15 45 29](https://github.com/Sumedh5798/hatio_project/assets/142483238/218c245e-028d-4ddb-b27a-102c6b08025c)
 

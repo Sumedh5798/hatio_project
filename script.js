@@ -130,7 +130,7 @@ function addTask(z,l,box){
     const pending=document.createElement('div');
     const done=document.createElement('div');
     const UL=document.createElement('ul');
-    
+    const listData=document.createElement('div');
    
    
     todo_close.className='todo_close';
@@ -140,7 +140,7 @@ function addTask(z,l,box){
     pending.className='pending';
     done.className='done';
     UL.className='UL';
-    
+    listData.className='listData';
    
    
 
@@ -158,6 +158,7 @@ function addTask(z,l,box){
     todo.appendChild(todo_title);
     todo.appendChild(todo_input);
     todo.appendChild(todo_btn);
+    todo.appendChild(listData);
     todo.appendChild(pending);
     todo.appendChild(done);
     pending.appendChild(UL);
@@ -216,6 +217,18 @@ project.addEventListener('click',(e)=>{
     }
 })
 
+project.addEventListener('click',()=>{
+    const done=document.querySelector('.done');
+    const pending=document.querySelector('.pending');
+    const listData=document.querySelector('.listData');
+    if(done && pending){
+        const LI=pending.querySelectorAll('.LI');
+        const LI1=done.querySelectorAll('.LI');
+        const a=LI.length;
+        const b=LI1.length;
+        listData.innerHTML=`<h5> ${b}  out  of  ${a}  tasks  are </h5>`
+    }
+})
 
 project.addEventListener('click',(e)=>{
     const t=e.target.closest('.LI')

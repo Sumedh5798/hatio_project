@@ -273,14 +273,31 @@ h1{
 
 .pending{
     min-height: 240px;
-    width: 450px;
-    margin-top: 10px;
+    width: 475px;
+    padding-left: 10px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+}
+.pending h5{
+    margin-left: 10px;
+    margin-top: 15px;
 }
 .done{
     min-height: 240px;
-    width: 450px;
+    width: 475px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+}
+.done h5{
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
 .UL{
